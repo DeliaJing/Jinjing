@@ -3,6 +3,7 @@ package hu.bme.mit.ase.shingler.gradle
 plugins {
     java
     jacoco
+    `java-library`
 }
 
 java.toolchain {
