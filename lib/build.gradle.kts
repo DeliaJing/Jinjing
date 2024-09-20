@@ -1,4 +1,7 @@
 plugins {
     id("hu.bme.mit.ase.shingler.gradle.java")
-    `java-library`
+    application
+}
+dependencies {
+    api(project(":lib"))
 }
